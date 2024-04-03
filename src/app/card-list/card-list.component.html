@@ -1,16 +1,4 @@
 <p>card-list works!</p>
 <div *ngFor="let card of annonce">
-<app-card 
-[name]="card.name"
-[prix]="card.prix"
-></app-card>
-<div *ngFor="let cards of card.adresse" >
-    <app-card
-    [codepostale]="cards.codepostale"
-    [rue]="cards.rue"
-    [ville]="cards.ville"
-    > </app-card>
-</div>    
+  <app-card [card]="card"></app-card>
 </div>
-
-  

@@ -1,11 +1,12 @@
 <div>
-    <ul>
-        <li>
-            <p>{{name}}</p>
-            <p>{{prix}}</p>
-            <p>{{ville}}</p>
-            <p>{{rue}}</p>
-            <p>{{codepostale}}</p>
-        </li>
-    </ul>
+  <ul>
+    <li>
+      <h2>{{ card.name }}</h2>
+      <h3>{{ card.prix }}</h3>
+      <h1>Adresse</h1>
+      <p>{{ card.adresse.codepostale }}</p>
+      <p>{{ card.adresse.rue }}</p>
+      <p>{{ card.adresse.ville }}</p>
+    </li>
+  </ul>
 </div>

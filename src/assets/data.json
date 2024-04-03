@@ -1,0 +1,29 @@
+[
+    {
+        "name" : "maison",
+         "prix" : 100000,
+         "adresse" : {
+            "ville" : "anglet",
+            "rue" : "10 rue de la conde",
+            "codepostale" : 64600 
+         }
+    },
+    {
+        "name" : "apartement",
+         "prix" : 120000,
+         "adresse" : {
+            "ville" : "anglet",
+            "rue" : "10 rue de la street",
+            "codepostale" : 64100 
+         }
+    },
+    {
+        "name" : "maison",
+         "prix" : 200000,
+         "adresse" : {
+            "ville" : "bayonne",
+            "rue" : "29 rue de la bourgneuf",
+            "codepostale" : 64100 
+         }
+    }
+]
